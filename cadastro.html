@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clinic Health - Cadastro</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <ul>
+                <li><a href="index.html">Página inicial</a></li>
+                <li><a href="sobre.html">Sobre nós</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img src="Clinic Health - pag inicial(2).png">
+            </div>
+    
+            <div class="content">
+                <h1>Cadastro</h1>
+                <form name="signup" onsubmit="alert('Cadastro finalizado!')">
+                    <fieldset>
+                        <legend>Dados pessoais</legend>
+                        <div class="row">
+                            <label>Nome: </label>
+                            <input type="text">
+                            <label>Idade: </label>
+                            <input type="number">
+                        </div>
+                        <div class="row">
+                            <label>CPF:</label>
+                            <input type="text">
+                            <label>E-mail:</label>
+                            <input type="email">
+                        </div>
+                    </fieldset>
+                    <br>
+                    <fieldset>
+                        <legend>Endereço</legend>
+                        <div class="row">
+                            <label>Endereço: </label>
+                            <input type="text">
+                            <label>Bairro: </label>
+                            <input type="text">
+                        </div>
+                        <div class="row">
+                            <label>Cidade: </label>
+                            <input type="text">
+                            <label>Número: </label>
+                            <input type="number">
+                        </div>
+                    </fieldset>
+                    <br>
+                    <fieldset>
+                        <legend>Crie uma senha</legend>
+                        <label>Digite sua senha: </label>
+                        <input type="password">
+                        <label>Confirme a senha: </label>
+                        <input type="password">
+                    </fieldset>
+                    <br>
+                    <button type="reset">Limpar</button>
+                    <button type="submit">Cadastre-se</button>
+                    
+                </form>
+            </div>
+    
+            <div class="footer">
+                <a href="contato.html"><img src="icon-tel.png" width="35px"></a><p>(11)92738-1287</p>
+                <a href="contato.html"><img src="icon-end.png" width="40px"></a><p>Av. Pompéia, 1326 - Pompeia, São Paulo - SP, 05022-001</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

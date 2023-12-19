@@ -1,0 +1,95 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+}
+.menu {
+    width: 15%;
+    padding: 140px 20px 0px;
+    background-color: #b3f9fe;
+}
+.menu ul li a{
+    text-decoration: none;
+}
+.menu ul li{
+    list-style: none;
+    padding-bottom: 10px;
+}
+.header {
+    min-height: 150px;
+}
+.content {
+    min-height: 300px;
+    padding: 20px;
+}
+.description{
+    display: inline-block;
+    width: 42%;
+}
+.form{
+    display: inline-block;
+    width: 42%;
+}
+.form fieldset{
+    padding-top: 20px;
+    
+}
+.form fieldset p{
+    text-align: center;
+}
+#login-page{
+    display: flex;
+    justify-content: center;
+}
+#about{
+    text-align: justify;
+}
+#services{
+    text-align: justify;
+}
+#contact{
+    display: flex;
+    justify-content: center;
+}
+.footer {
+    min-height: 95px;
+    background-color: #cdfcff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+}
+.footer img{
+    margin: 0px 10px;
+}
+.row {
+    margin: 5px;
+}
+label {
+    width: 100px;
+    text-align: right;
+    display: inline-block;
+    padding-right: 5px;
+}
+td {
+    text-align: center;
+}
+th {
+    text-align: center;
+}
